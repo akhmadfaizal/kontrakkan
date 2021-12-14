@@ -1,0 +1,380 @@
+body {
+    font-family: 'Lato';
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.btn-cs-transparent {
+    color: #FFC288;
+    border: 1px solid #FFC288;
+    padding: 10px 50px;
+}
+
+hr {
+    width: 50px;
+    border: 10px dotted #FFC288;
+    border-bottom: none;
+    background-color: transparent;
+    margin: 0 auto 20px;
+}
+
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FFC288;
+}
+
+.navbar .container-fluid{
+    padding: 1% 8%;
+}
+
+.navbar-brand {
+    font-family: 'Squada One';
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin: 0 2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* Header */
+header {
+    background-color: #FFC288;
+    height: 100vh;
+    /* border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px; */
+}
+
+header .container-fluid {
+    padding-top: 7%;
+    padding-left: 8%;
+}
+
+.title-header {
+    font-family: 'Squada One';
+    font-size: 4rem;
+}
+
+.small-link-header {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.small-link-header:hover {
+    color: #ffffff;
+    text-decoration: initial;
+}
+
+.image_one {
+    margin-bottom: 30px;
+    height: 400px;
+}
+.image_two, .image_three{
+    height: 300px;
+}
+.image_one img, .image_two img, .image_three img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-header {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Services */
+#services {
+    text-align: center;
+}
+#services .container-fluid{
+    padding: 1% 15%;
+}
+#services .card {
+    background-color: #FCECDD;
+    padding: 40px 120px;
+    height: 100%;
+}
+#services .icon {
+    margin-bottom: 10px;
+    font-size: 64px;
+    color: #FFC288;
+}
+#services .services-text {
+    color: #FF6701;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Price */
+#price .card{
+    text-align: center;
+    border: 5px solid #FFC288;
+    height: 100%;
+}
+
+#price .card-header {
+    border-bottom: 5px solid #FFC288;
+    font-family: Squada One;
+    font-size: 2.5rem;
+    background-color: #fff;
+}
+
+#price .card .day {
+    font-family: Lato;
+    font-size: 1.5rem;
+}
+
+#price .card .price-number {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+#price .dot {
+    height: 16px;
+    width: 16px;
+    background-color: #FFC288;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* Near Place  */
+#near-place h1{
+    text-align: center;
+    color: #FEA82F;
+    font-weight: 700;
+}
+
+#near-place .card {
+    border: 5px solid #FFC288;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #FFC288;
+    height: 100%;
+}
+#near-place .card-header{
+    padding: 0;
+    border-bottom: 5px solid #FFC288;
+}
+
+#near-place .near-place-img{
+    height: 200px;
+}
+
+#near-place img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#near-place h2 {
+    color: #FFC288;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#near-place ul {
+    margin-bottom: 50px;
+}
+
+#near-place ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact */
+#contact h1 {
+    text-align: center;
+    color: #FEA82F;
+    font-weight: 700;
+}
+#contact .card {
+    background-color: #FEA82F;
+    color: #fff;
+}
+#contact .card .card-body .text-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}   
+#contact ul {
+    padding: 0;
+    list-style-type: none;
+}
+#contact ul li {
+    margin-bottom: 10px;
+}
+.google-map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+/* FAQ */
+#faq h1{
+    text-align: center;
+    color: #FEA82F;
+    font-weight: 700;
+}
+#faq .accordion {
+    border: 0;
+}
+#faq .accordion .accordion-button {
+    font-weight: 700;
+    color: #FEA82F;
+    background-color: #fff;
+    box-shadow: none !important;
+}
+#faq .accordion .accordion-body {
+    color: #2e2e2e;
+    padding: 10px 1.25rem;
+}
+.accordion-button::after{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0gMTEgMiBMIDExIDExIEwgMiAxMSBMIDIgMTMgTCAxMSAxMyBMIDExIDIyIEwgMTMgMjIgTCAxMyAxMyBMIDIyIDEzIEwgMjIgMTEgTCAxMyAxMSBMIDEzIDIgWiI+PC9wYXRoPjwvc3ZnPg==);
+    filter: invert(72%) sepia(81%) saturate(1172%) hue-rotate(334deg) brightness(101%) contrast(99%);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%221em%22%20height%3D%221em%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M20%2012H4%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+}
+
+footer{
+    background-color: #FEA82F;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+    .navbar-nav {
+        list-style: none;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .title-header {
+        font-size: 3rem;
+    }
+    
+    .image_one {
+        margin-top: 20px;
+    }
+    
+    .image_one, .image_two, .image_three{
+        height: 200px;
+    }
+
+    /* Services */
+    #services .card {
+        padding: 30px;
+    }
+    #services .container-fluid{
+        padding: 1% 10%;
+    }
+    #services .card-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /* Price */
+    #price .card-wrapper{
+        margin-bottom: 20px;
+    }
+
+    /* Near Place */
+    #near-place .card-wrapper{
+        margin-bottom: 20px;
+    }
+
+    /* Contact  */
+    #contact .card-wrapper{
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Services */
+    #services .card {
+        padding: 50px 20px;
+    }
+    #services .container-fluid{
+        padding: 1% 10%;
+    }
+
+    /* Price */
+    #price .card-wrapper{
+        margin-bottom: 20px;
+    }
+
+    /* Near Place */
+    #near-place .card-wrapper{
+        margin-bottom: 20px;
+    }
+
+    /* Contact  */
+    #contact .card-wrapper{
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /* Price */
+    #price .container-fluid{
+        padding: 1% 5%;
+    }
+    /* Near Place  */
+    #near-place .container-fluid{
+        padding: 1% 5%;
+    }
+    #near-place .near-place-img{
+        height: 300px;
+    }
+    /* Contact  */
+    #contact .container-fluid{
+        padding: 1% 5%;
+    }
+    /* FAQ */
+    #faq .container-fluid{
+        padding: 1% 5%;
+    }
+}
