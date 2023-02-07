@@ -3,7 +3,12 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Lato', sans-serif;
     color: black;
 }
@@ -27,12 +32,17 @@ section {
     margin-bottom: 40px;
 }
 
+/* Usable */
+.rating-color {
+    color: #fbc634 !important;
+}
+
 /* Navbar */
 .navbar {
     background-color: #FFC288;
 }
 
-.navbar .container-fluid{
+.navbar .container-fluid {
     padding: 1% 8%;
 }
 
@@ -87,10 +97,15 @@ header .container-fluid {
     margin-bottom: 30px;
     height: 400px;
 }
-.image_two, .image_three{
+
+.image_two,
+.image_three {
     height: 300px;
 }
-.image_one img, .image_two img, .image_three img{
+
+.image_one img,
+.image_two img,
+.image_three img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -105,19 +120,23 @@ header .container-fluid {
 #services {
     text-align: center;
 }
-#services .container-fluid{
+
+#services .container-fluid {
     padding: 1% 15%;
 }
+
 #services .card {
     background-color: #FCECDD;
     padding: 40px 120px;
     height: 100%;
 }
+
 #services .icon {
     margin-bottom: 10px;
     font-size: 64px;
     color: #FFC288;
 }
+
 #services .services-text {
     color: #FF6701;
     font-weight: 600;
@@ -125,7 +144,7 @@ header .container-fluid {
 }
 
 /* Price */
-#price .card{
+#price .card {
     text-align: center;
     border: 5px solid #FFC288;
     height: 100%;
@@ -159,7 +178,7 @@ header .container-fluid {
 }
 
 /* Near Place  */
-#near-place h1{
+#near-place h1 {
     text-align: center;
     color: #FEA82F;
     font-weight: 700;
@@ -172,16 +191,17 @@ header .container-fluid {
     color: #FFC288;
     height: 100%;
 }
-#near-place .card-header{
+
+#near-place .card-header {
     padding: 0;
     border-bottom: 5px solid #FFC288;
 }
 
-#near-place .near-place-img{
+#near-place .near-place-img {
     height: 200px;
 }
 
-#near-place img{
+#near-place img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -208,56 +228,66 @@ header .container-fluid {
     color: #FEA82F;
     font-weight: 700;
 }
+
 #contact .card {
     background-color: #FEA82F;
     color: #fff;
 }
+
 #contact .card .card-body .text-title {
     text-align: center;
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 20px;
-}   
+}
+
 #contact ul {
     padding: 0;
     list-style-type: none;
 }
+
 #contact ul li {
     margin-bottom: 10px;
 }
-.google-map iframe{
+
+.google-map iframe {
     height: 100%;
     width: 100%;
 }
 
 /* FAQ */
-#faq h1{
+#faq h1 {
     text-align: center;
     color: #FEA82F;
     font-weight: 700;
 }
+
 #faq .accordion {
     border: 0;
 }
+
 #faq .accordion .accordion-button {
     font-weight: 700;
     color: #FEA82F;
     background-color: #fff;
     box-shadow: none !important;
 }
+
 #faq .accordion .accordion-body {
     color: #2e2e2e;
     padding: 10px 1.25rem;
 }
-.accordion-button::after{
+
+.accordion-button::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0gMTEgMiBMIDExIDExIEwgMiAxMSBMIDIgMTMgTCAxMSAxMyBMIDExIDIyIEwgMTMgMjIgTCAxMyAxMyBMIDIyIDEzIEwgMjIgMTEgTCAxMyAxMSBMIDEzIDIgWiI+PC9wYXRoPjwvc3ZnPg==);
     filter: invert(72%) sepia(81%) saturate(1172%) hue-rotate(334deg) brightness(101%) contrast(99%);
 }
-.accordion-button:not(.collapsed)::after{
+
+.accordion-button:not(.collapsed)::after {
     background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%221em%22%20height%3D%221em%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M20%2012H4%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
 }
 
-footer{
+footer {
     background-color: #FEA82F;
     text-align: center;
     color: #fff;
@@ -273,9 +303,11 @@ footer{
     .navbar-brand {
         font-size: 1.8rem;
     }
+
     .navbar-nav {
         list-style: none;
     }
+
     .nav-link {
         font-size: 1rem;
     }
@@ -283,12 +315,14 @@ footer{
     .title-header {
         font-size: 3rem;
     }
-    
+
     .image_one {
         margin-top: 20px;
     }
-    
-    .image_one, .image_two, .image_three{
+
+    .image_one,
+    .image_two,
+    .image_three {
         height: 200px;
     }
 
@@ -296,85 +330,89 @@ footer{
     #services .card {
         padding: 30px;
     }
-    #services .container-fluid{
+
+    #services .container-fluid {
         padding: 1% 10%;
     }
+
     #services .card-wrapper {
         margin-bottom: 20px;
     }
 
     /* Price */
-    #price .card-wrapper{
+    #price .card-wrapper {
         margin-bottom: 20px;
     }
 
     /* Near Place */
-    #near-place .card-wrapper{
+    #near-place .card-wrapper {
         margin-bottom: 20px;
     }
 
     /* Contact  */
-    #contact .card-wrapper{
+    #contact .card-wrapper {
         margin-bottom: 20px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
     /* Services */
     #services .card {
         padding: 50px 20px;
     }
-    #services .container-fluid{
+
+    #services .container-fluid {
         padding: 1% 10%;
     }
 
     /* Price */
-    #price .card-wrapper{
+    #price .card-wrapper {
         margin-bottom: 20px;
     }
 
     /* Near Place */
-    #near-place .card-wrapper{
+    #near-place .card-wrapper {
         margin-bottom: 20px;
     }
 
     /* Contact  */
-    #contact .card-wrapper{
+    #contact .card-wrapper {
         margin-bottom: 20px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
- 
-} 
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
- 
-} 
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
     /* Price */
-    #price .container-fluid{
+    #price .container-fluid {
         padding: 1% 5%;
     }
+
     /* Near Place  */
-    #near-place .container-fluid{
+    #near-place .container-fluid {
         padding: 1% 5%;
     }
-    #near-place .near-place-img{
+
+    #near-place .near-place-img {
         height: 300px;
     }
+
     /* Contact  */
-    #contact .container-fluid{
+    #contact .container-fluid {
         padding: 1% 5%;
     }
+
     /* FAQ */
-    #faq .container-fluid{
+    #faq .container-fluid {
         padding: 1% 5%;
     }
 }
